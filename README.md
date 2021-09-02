@@ -9,7 +9,7 @@
 当然，文档目前也只支持中文和英文，如果你想帮助翻译，那么创建一个文件 README.lang.md，lang 是该语言的英文缩写，例如 en 代表英文。
 
 # 详细教程
-https://blog.sprov.xyz/v2-ui/
+https://web.archive.org/web/20210305142309/https://blog.sprov.xyz/2019/08/03/v2-ui/
 
 # 运行截图
 ![1.png](1.png)
@@ -37,7 +37,7 @@ v2-ui 与其它所有关于修改 v2ray 配置文件的工具***完全不兼容*
 
 ## 一键安装&升级
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/doublog/v2-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/wixfreto/v2-ui/master/install.sh)
 ```
 
 ## 手动安装&升级
@@ -45,7 +45,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/doublog/v2-ui/master/install.s
 无需手动安装 v2ray，v2-ui 自带官方 xray 内核
 
 ### 手动安装 v2-ui
-https://github.com/sprov065/v2-ui/releases
+https://github.com/wixfreto/v2-ui/releases
 
 从该地址中下载最新的 v2-ui-linux.tar.gz 文件，并上传至 VPS 的 /root/ 目录下。若你上传至其它的目录，则将第一行命令的 cd /root/ 改为 cd (实际的目录)，不用包括文件名。
 ```
@@ -61,7 +61,7 @@ systemctl daemon-reload
 systemctl enable v2-ui
 systemctl restart v2-ui
  
-curl -o /usr/bin/v2-ui -Ls https://raw.githubusercontent.com/doublog/v2-ui/master/v2-ui.sh
+curl -o /usr/bin/v2-ui -Ls https://raw.githubusercontent.com/wixfreto/v2-ui/master/v2-ui.sh
 chmod +x /usr/bin/v2-ui
 ```
 安装完毕后，输入 v2-ui 命令，你会看到你想要的。
